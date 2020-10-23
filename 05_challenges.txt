@@ -1,0 +1,16 @@
+centre
+
+% 2 challenges
+
+* How do we bypass scantime detection to get our ~evil_binary~ on the victims PC?
+
+    Loader: ~Downloads malicious binary in encrypted form~
+    Dynamic compilation: ~Downloads encrypted source code and compiles it dynamically~
+
+* Usually some form of symmetric encryption, but how do we run encrypted code?
+
+* Once our code is run how do we avoid raising alarms?
+
+    ~SSL/TLS is a good start for avoiding packet snooping~
+    ~Encrypting files dropped to disk sounds smart~
+    ~CryptProtectMemory could work but is most likely being monitored~

@@ -1,0 +1,11 @@
+centre
+
+% Signature Based Detections
+
+* Think of it like a footprint or a pattern
+
+    Byte Sequence: ~01010101110~
+    URLs: ~some_evil_site.ru:1337~
+    Hash of known virus: ~fecbba4e620fbf96aa2d020736b2c9d0d6fbeafe~
+
+* Easily circumvented by encryption

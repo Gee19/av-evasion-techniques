@@ -1,0 +1,21 @@
+centre
+
+% Well what do AVs actually do?
+
+* Network scans
+
+* Firewall stuff
+
+* Real-time IO scanning (shoutout to ESET for inspiring this talk)
+  • ~Scan-time (Static)~
+    • File open – Scans when a file is opened.
+    • File creation – Scans a created or modified file.
+
+  • ~Run-time (Dynamic)~
+    • File execution – Scans when a file is executed or run
+
+* Usually detections come in two varieties:
+  • ~Signature based~
+  • ~Heuristic based~
+
+  * We will focus on scan-time in the next few slides for simplicity

@@ -1,0 +1,17 @@
+centre
+
+% RunPE, PE Injection or Code Injection
+
+* More advanced stubs will utilize a RunPE (portable executable) method.
+
+* Suspend -> Inject -> Resume
+    ~Create new instance of stub process in suspended state~
+    ~Inject the evil bytecode into the process memory~
+    ~Move address of entry point to eax register~
+    ~Resume process/call main()~
+
+This is just one example, there are alternative methods like injecting into existing processes and utilizing:
+    ~CreateRemoteThread~
+    ~NtCreateThreadEx~
+
+Note: this is harder if UAC is enabled

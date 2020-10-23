@@ -1,0 +1,15 @@
+centre
+
+% How do AVs defend us at runtime?
+
+* Combines scan-time protection to prevent opening of a potentially malicious file.
+
+* Uses signature/heuristic based detection at this stage as well.
+
+* Usually run with root priviledges and can control user processes.
+
+* Monitoring win32 function calls, network traffic, process memory, files written to disk, etc.
+
+* Can prevent certain events via ring0 privs or Early Launch AntiMalware (ELAM)
+
+* Runs before boot, can cause kernel/system panic if process is killed (BSOD).

@@ -1,0 +1,14 @@
+centre
+
+% Heuristic Based Detections
+
+* AV specific
+
+* Example heuristics based on win32 function calls:
+    CallNextHookEx: ~Common in userland keyloggers~
+    LoadLibraryA: ~Common in run-time DLL injection~
+    WriteProcessMemory: ~Common in RunPE methods~
+
+* ~False positives!~
+
+* Again, easily circumvented by encryption (at scantime)
