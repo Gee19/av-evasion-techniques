@@ -1,0 +1,20 @@
+centre
+
+% IAT Hooking/Patching
+
+* Before
+    ~target program calls a WinAPI MessageBoxA function~
+    ~the program looks up the MessageBoxA address in the IAT~
+    ~code execution jumps to the kernel32!MessageBoxA address resolved in step 2~
+
+* After
+    ~the target program calls MessageBoxA like before hooking~
+    ~program looks up the MessageBoxA address in the IAT~
+    ~IAT has been tampered with, the MessageBoxA address in the IAT is pointing to a rogue hookedMessageBox function~
+    ~the program jumps to the hookedMessageBox retrieved in step 3~
+    ~hookedMessageBox intercepts the MessageBoxA parameters and executes some malicous code~
+    ~hookedMessageBox calls the legitimate kernel32!MessageBoxA routine~
+
+* Could be used to hide our malicious process from AVs watchful eye.
+    ~Hooking NtQuerySystemInformation~
+
