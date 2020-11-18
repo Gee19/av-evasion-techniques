@@ -1,0 +1,13 @@
+centre
+
+% Bonus: Big Sur
+
+* Apple has implemented a new way to allow their system applications to avoid OS firewalls
+
+* ~ContentFilterExclusionList~ specifies applications that avoid built-in NetworkExtension filtering
+
+* All userland firewalls must use this new framework/extension to hook network requests
+
+* Could a malicious actor spoof or piggyback on this to circumvent the firewall?
+
+~https://twitter.com/patrickwardle/status/1327726496203476992~

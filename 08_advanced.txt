@@ -7,6 +7,6 @@ centre
 * UAC bypass
     ~Utilize a priviledged application to execute our malicious one~
     ~Enter eventvwr.exe~
-    ~Reads HKEY_CURRENT_USER\Software\Classes\mscfile\shell\open\command~
+    ~Reads HKEY_CURRENT_USER\Software\Classes\mscfile\shell\open\command
     ~Executes the binary at this path if it exists~
     ~With root perms and within the same process (snap-in)~
