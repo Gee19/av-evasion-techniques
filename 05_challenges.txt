@@ -2,6 +2,8 @@ centre
 
 % 2 challenges
 
+* VirusTotal is your friend
+
 * How do we bypass scantime detection to get our ~evil_binary~ on the victims PC?
 
     Loader: ~Downloads malicious binary in encrypted form~
@@ -14,3 +16,5 @@ centre
     ~SSL/TLS is a good start for avoiding packet snooping~
     ~Encrypting files dropped to disk sounds smart~
     ~CryptProtectMemory could work but is most likely being monitored~
+
+* Targeted attacks become a lot easier and can be tested beforehand if you have information on what AV(s) they use

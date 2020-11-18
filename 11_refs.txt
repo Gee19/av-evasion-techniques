@@ -20,3 +20,6 @@ centre
 * General
   - https://docs.microsoft.com/en-us/windows/win32/api/_base/
   - https://wikileaks.org/ciav7p1/cms/files/BypassAVDynamics.pdf
+
+* Extra
+  - https://github.com/jxy-s/herpaderping

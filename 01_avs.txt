@@ -2,9 +2,9 @@ centre
 
 % Well what do AVs actually do?
 
-* Network scans
+* Two types, AV and EDR (Endpoint Detection and Response)
 
-* Firewall stuff
+* Network scans & firewall stuff
 
 * Real-time IO scanning (shoutout to ESET for inspiring this talk)
   • ~Scan-time (Static)~
